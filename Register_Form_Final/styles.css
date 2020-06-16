@@ -1,0 +1,161 @@
+/*Ascund toate stepurile la inceput!!!*/
+.tab {
+    display: none;
+}
+
+
+button {
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-family: Raleway;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.form-style-10{
+    width:1000px;
+    padding:30px;
+    margin:40px auto;
+    background: white;
+    border-radius: 10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius: 10px;
+    -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+}
+
+body {
+    background-color: #f2f2f2;
+}
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.form-style-10 h1{
+    background: #01e6ac;
+    background-position: center;
+    text-align: center;
+    line-height: center;
+    padding: 15px 15px 15px 30px;
+    margin: -30px -30px 30px -30px;
+    border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    color: #fff;
+    font: normal 30px 'Bitter', serif;
+}
+
+
+h2 {
+    color: #01e6ac;
+    font-family:"Trebuchet MS",tahoma;
+    margin: auto;
+    line-height: 100px;
+}
+
+
+input[type=submit] {
+    background-color: #2c97de;;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.form-style-2-heading{
+    font-weight: bold;
+    font-style: italic;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 20px;
+    font-size: 15px;
+    padding-bottom: 3px;
+}
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+span.required{
+    color:red;
+}
+input.invalid {
+    background-color: #ffdddd;
+}
+
+.txt{
+    display: block;
+    font-size: 20px;
+    font-family:"Trebuchet MS",tahoma;
+    color:#94aab0;
+    line-height: 50px;
+
+}
+
+.txt2{
+    font-size: 20px;
+    font-family:"Trebuchet MS",tahoma;
+    color:#94aab0;
+}
+
+.txt3{
+    display: inline-block;
+    font-size: 20px;
+    font-family:"Trebuchet MS",tahoma;
+    color:#94aab0;
+    line-height: 50px;
+
+}
+.txt3{
+    display: inline;
+    font-size: 20px;
+    font-family:"Trebuchet MS",tahoma;
+    color:#94aab0;
+    line-height: 50px;
+
+}
+
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+input[type=date], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+input[type=password], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+
+
