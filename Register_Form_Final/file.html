@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <title>Register Form</title>
+</head>
+<body>
+<div class="form-style-10">
+    <h1>Formular de inregistare<br></h1>
+        <form id="regForm">
+
+        <div class="tab">
+                <h2 class="hash">PASUL 1: DETALII UTILIZATOR</h2>
+
+            <label class="txt3" >IMPORTA O IMAGINE:</label>
+            <input type="file" name="myfile" oninput="this.className = ''">
+            <label class="txt">NUME:<span class="required">*</span></label>
+            <input type="text" class="reqs"  name='firstName' id='firstName' oninput="this.className = ''">
+            <label class="txt" >PRENUME:<span class="required">*</span></label>
+            <input type="text" id="Lname" class="reqs" name="lastname" oninput="this.className = ''">
+            <label id="sex" class="txt" >SEX:</label>
+            <label class="txt2" >Masculin</label>
+            <input type="radio" name="yesno"  name="gender"  value="male" oninput="this.className = ''" checked>
+            <label class="txt3" >Feminin</label>
+            <input type="radio" name="yesno" name="gender"  value="female" oninput="this.className = ''">
+            <label class="txt" >DATA NASTERII:</label>
+            <input type="date" id="dt" name="dt" oninput="this.className = ''">
+        </div>
+
+        <div class="tab">
+                <h2 class="hash">PASUL 2: DETALII CONTACT</h2>
+            <label class="txt">NUMAR DE TELEFON:</label>
+            <input type="text" id="tel" name="lastname" oninput="this.className = ''">
+            <label class="txt">ADRESA EMAIL:</label>
+            <input type="text" id="mymail" oninput="this.className = ''">
+            <label class="txt" for="judet">JUDET:<span class="required">*</span></label>
+            <select id="judet" name="judet" class="form-control reqs">
+                <option class="txt"  value=""></option>
+                <option class="txt" value="Sv">Suceava</option>
+                <option class="txt" value="Vl">Valcea</option>
+            </select><br><br>
+            <label class="txt" for="city">ORAS:<span class="required">*</span></label>
+            <select id="city" name="city" class="form-control reqs" required>
+                <option class="txt" value=""></option>
+                <option class="txt" value="CT">Constanta</option>
+                <option class="txt" value="Pit">Pitesti</option>
+                <option class="txt" value="TM">Timisoara</option>
+            </select><br><br>
+        <label class="txt" for="adresa">ADRESA:<span class="required">*</span></label>
+            <input type="text" class="reqs" id="adresa" name="adresa" oninput="this.className = ''">
+
+            <label class="txt" >COD POSTAL:</label>
+            <input id="zip" name="zip" type="text" inputmode="numeric" pattern="^(?(^00000(|-0000))|(\d{5}(|-\d{4})))$" oninput="this.className = ''">
+        </div>
+
+
+
+            <div class="tab">
+                <h2 class="hash">PASUL 3: CREDENTIALE</h2>
+                <p id="geeks"></p>
+                <label class="txt" >PAROLA:<span class="required">*</span></label>
+                <input onclick="gfg_Run()" type="password"  id="password" oninput="this.className = ''" onchange="check()"/>
+
+            <label class="txt">CONFIRMATI PAROLA:<span class="required">*</span> </label>
+            <input type="password" id="confirm_password" oninput="this.className = ''" onchange="check()"/>
+            <input type="checkbox"  id="firstop" name="firstop" value="ab1" oninput="this.className = ''">
+            <label class="txt2" for="firstop">DORESC SA MA ABONEZ LA NEWSLETTER</label> <br><br>
+        <input type="checkbox" class="txt2" id="secop" name="secop" value="ab2" oninput="this.className = ''">
+            <label class="txt2" for="secop">SUNT DE ACORD CU TERMENII SI CONDITIILE</label>
+               <label id="message" class="txt"></label>
+            </div>
+
+
+        <div style="overflow:auto;">
+            <div style="float:right;">
+                <button type="button" id="nextBtn" onclick="nextPrev(1); nextStep()">Next</button>
+            </div>
+        </div>
+
+        </div>
+        <div style="text-align:center;margin-top:40px;">
+            <span class="step"></span>
+            <span class="step"></span>
+            <span class="step"></span>
+        </div>
+
+
+
+
+    </form>
+</div>
+<script src="main.js"></script>
+<script src="test.js"></script>
+
+
+
+
+</body>
+
+
+
+</html>
+
